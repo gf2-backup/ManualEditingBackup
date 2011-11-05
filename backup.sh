@@ -4,7 +4,7 @@ password=gofigure;
 database=gofiguredatabase;
 file=EVL_0_40.mysql;
 
-cd /home/GITROOT/PAPER/ManualEditingBackup;
+cd /home/ajg23/GITROOT/PAPER/ManualEditingBackup;
 
 /usr/bin/mysqldump -u $user -p$password --skip-extended-insert $database > $file;
 
