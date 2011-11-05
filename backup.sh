@@ -2,7 +2,7 @@
 user=gofigure;
 password=gofigure;
 database=gofiguredatabase;
-file=EVL_40_60.mysql;
+file=EVL_41_60.sql;
 
 cd /home/ajg23/GITROOT/PAPER/ManualEditingBackup;
 
