@@ -2,9 +2,9 @@
 user=gofigure;
 password=gofigure;
 database=gofiguredatabase;
-file=EVL_41_60.sql;
+file=EVL_61_70.sql;
 
-cd /home/ajg23/GITROOT/PAPER/ManualEditingBackup;
+cd /home/nr52/gitroot/manualBU;
 
 /usr/bin/mysqldump -u $user -p$password --skip-extended-insert $database > $file;
 
